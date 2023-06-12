@@ -1,3 +1,5 @@
-*
-!.gitignore
-!debugging.robot
+debugging/*
+!debugging/debugging.robot
+
+projects/*
+!projects/api_token.robot
