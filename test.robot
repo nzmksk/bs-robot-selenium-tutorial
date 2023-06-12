@@ -111,7 +111,7 @@ Switch To Financial
 
 Check Swap Charge
      ${expected_swap}=    Evaluate    100*100000*10*0.5
-     ${formatted_results}=    Evaluate    "{:,}".format($expected_swap)
+     ${formatted_results}=    Evaluate    "{:,.0f}".format($expected_swap)
      SeleniumLibrary.Element Text Should Be    //*[text()="USD"]//preceding-sibling::div     ${formatted_results}
 
 *** Test Cases ***
