@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    XML
-Resource    private_variables.robot
+Resource   ../private_variables.robot
 
 *** Variables ***
 # Login Elements

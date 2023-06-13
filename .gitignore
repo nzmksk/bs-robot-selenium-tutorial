@@ -1,5 +1,14 @@
+*.html
+*.xml
+*.png
+
 debugging/*
 !debugging/debugging.robot
 
+projects/account_closing/*
+!projects/account_closing/account_closing.robot
+
 projects/api_token/*
 !projects/api_token/api_token.robot
+
+projects/private_variables.robot
