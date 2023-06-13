@@ -1,5 +1,5 @@
 debugging/*
 !debugging/debugging.robot
 
-projects/*
-!projects/api_token.robot
+projects/api_token/*
+!projects/api_token/api_token.robot
